@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<!-- <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.js"></script> -->
+<script src="count-up.js"></script>
+</head>
+<body>
+
+<span id="primo" class="countup" cup-end="100" cup-append="%" cup-prepend=""></span>
+<br>
+<span id="secondo" class="countup" cup-end="1500" cup-duration="2000"></span>
+
+<script>
+
+var cu = new counterUp({
+	start: 0,	
+	duration: 6000,
+	intvalues: true,
+	interval: 100,
+	prepend: '€',
+	append: '.00'
+});
+cu.start();
+
+</script>
+</body>
+</html>
