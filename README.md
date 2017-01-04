@@ -2,7 +2,7 @@
 
 CounterUp is a pure javascript, light weight (1600 bytes) counter to display counting up or down to a numeric value in a given frame of time. Useful to show how many happy customers you have on that trendy website you are building.
 
-With CounterUp you can easily build simple up/down counters, elapsing time, countdowns and much more.
+With counterUp you can easily build simple up/down counters, elapsing time, countdowns and much more.
 
 
 # Installation
@@ -14,7 +14,7 @@ Just get the count-up.js file here and include it in your HTML. Done.
 # Usage
 
 
-CountUp just need one or more HTML elements to hold the displayed value. You can bind the countUp to as many elements as you want using standard CSS selectors.
+counterUp just need one or more HTML elements to hold the displayed value. You can bind the countUp to as many elements as you want using standard CSS selectors.
 
 Params:
 - `selector` = the selector used to bind the counterUp to DOM elements
@@ -29,18 +29,22 @@ Params:
 Create one or more instances of counterUp like so:
 
 ```
-var mycounter = new CounterUp({
+var mycounter = new counterUp({
         selector: '.mselector',
         duration: 2000
     });
 ```
 
-When you're ready to go, just call the start method.
+When you're ready to go, just call the start method and see the numbers go. Jeeez!
 
 `mycounter.start();`
 
-You can both set global parameters while creating the counterUp instance, or bind a different parameter to every DOM element specifying the parameter you want to set using `cup-parametername` attributes.
+You can both set global parameters while creating the counterUp instance, or set a different parameter for every DOM element specifying the parameter you want to set using `cup-parametername` attributes.
 
-`<span class=".myselector" cup-duration="2000" cup-end="100" cup-append="%"></span>`
+```
+<span class=".myselector" cup-duration="3000" cup-end="100" cup-append="%" cup-append=" completed"></span>
+<span class=".myselector" cup-duration="6000" cup-end="2500" cup-prepend="$"></span>
+
+```
 
 Have fun counting!
