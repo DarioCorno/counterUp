@@ -1,18 +1,18 @@
 # counterUp
----
+
 CounterUp is a pure javascript, light weight (1600 bytes) counter to display counting up or down to a numeric value in a given frame of time. Usefull to show how many happy customers you have on that trendy website you are building.
 
 With CounterUp you can easily build simple up counters, elapsing time, countdowns and much more.
 
 
 # Installation
----
+
 
 Just get the count-up.js file here and include it in your HTML. Done.
 
 
 # Usage
----
+
 
 CountUp just need one or more HTML elements to hold the displayed value. You can bind the countUp to as many elements as you want using standard CSS selectors.
 
