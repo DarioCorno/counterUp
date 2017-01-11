@@ -23,7 +23,7 @@ Params:
 - `append`   = a string to append to the numeric value (for example a % sign)
 - `start`    = the starting value of the count
 - `end`      = the ending value of the count
-- `intalues` = set true if we want to show floating point values (it uses 2 decimals)
+- `intvalues` = set true if we want to show floating point values (it uses 2 decimals)
 - `interval` = the refresh interval of the counter in ms
 
 Create one or more instances of counterUp like so:
