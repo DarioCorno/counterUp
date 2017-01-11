@@ -30,7 +30,7 @@ Create one or more instances of counterUp like so:
 
 ```
 var mycounter = new counterUp({
-        selector: '.mselector',
+        selector: '.myselector',
         duration: 2000
     });
 ```
