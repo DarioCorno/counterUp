@@ -42,7 +42,7 @@ When you're ready to go, just call the start method and see the numbers go. Jeee
 You can both set global parameters while creating the counterUp instance, or set a different parameter for every DOM element specifying the parameter you want to set using `cup-parametername` attributes.
 
 ```
-<span class=".myselector" cup-duration="3000" cup-end="100" cup-append="%" cup-append=" completed"></span>
+<span class=".myselector" cup-duration="3000" cup-end="100" cup-append="% completed"></span>
 <span class=".myselector" cup-duration="6000" cup-end="2500" cup-prepend="$"></span>
 
 ```
